@@ -1,0 +1,217 @@
+{
+  "loading.init_system_basic_data": "初始化系统基础数据，请稍后...",
+  "action.admin_login_as": "管理员登录",
+  "action.forget_password": "忘记密码",
+  "action.login": "登录",
+  "action.ok": "确定",
+  "action.cancel": "取消",
+  "action.close": "关闭",
+  "action.add": "新增",
+  "action.edit": "编辑",
+  "action.detail": "查看",
+  "action.delete": "删除",
+  "action.save": "保存",
+  "action.callback": "返回",
+  "action.submit": "提交",
+  "action.next": "下一步",
+  "action.done": "完成",
+  "action.parentdetail": "查看",
+
+  "label.yes": "是",
+  "label.no": "否",
+
+  "filter": "筛选",
+  "filter.add.condition": "增加条件",
+  "filter.condition.contains": "包含",
+  "filter.condition.equal": "等于",
+  "filter.condition.before": "在之前",
+  "filter.condition.after": "在之后",
+  "filter.condition.not_equal": "不等于",
+
+  "placeholder.please_select_one_field": "请选择一个字段",
+  "placeholder.please_select_one_condition": "请选择一个条件",
+  "placeholder.please_enter_the_query_value": "请输入查询值",
+  "placeholder.select_the_subordinate": "请选择下属",
+  "placeholder.select_the_template": "请选择模板",
+
+  "message.login_welcome": "欢迎回来，请登录",
+  "lable.environment": "环境",
+  "placeholder.login_name": "账号",
+  "placeholder.login_password": "账号密码",
+  "message.login_name is required": "账号不能为空",
+  "message.login_password is required": "密码不能为空",
+
+  "action.normal_login_as": "普通登录",
+  "placeholder.manager_login_name": "管理员账号",
+  "placeholder.manager_login_password": "管理员密码",
+  "placeholder.need_login_name": "下属账户",
+
+  "label.retrieve_password": "重置密码",
+  "label.account_name": "账户",
+
+  "label.about_us": "关于我们",
+
+  "message.login success": "登录成功",
+  "message.logout success": "登出成功",
+
+  "message.yes_or_no": "是否 ",
+  "message.is_required": "不能为空 ",
+
+  "show total": "共 {total} 条",
+
+  "label.filter": "筛选",
+  "label.hello": ", 您好 ",
+  "label.admin_logged": "管理员，您已经登录",
+  "label.loginAsBy_logged": "{{loginAsBy}}，您已经登录",
+  "label.'s_account": " 的账号",
+
+  "Rendering": "布局正在渲染中，请稍等。",
+  "Not Found Render Object": "该布局暂未分配给您，请联系系统管理员处理。",
+  "The current user no access": "当前账户没有访问的权限，请联系系统管理员处理。",
+
+  "action.change_password": "修改密码",
+  "placeholder.old_password": "请输入旧密码",
+  "placeholder.new_password": "请输入新密码",
+  "placeholder.new_passwpord.again": "再次输入新密码",
+  "label.please_first_select_call_date": "请先选择拜访日期",
+  "label.old_password": "旧密码",
+  "label.new_password": "新密码",
+  "label.new_password.again": "重复新密码",
+  "message.please_select_call_date": "请填写拜访日期！",
+  "message.please_select_call_customer": "请选择拜访人！",
+  "message.call_plans_at_a_time": "一次最多可批量新建{{maxSelectedMark}}条拜访计划",
+  "message.operation_succeeded": "创建成功",
+  "message.password_is_not_consistent": "两个新密码输入不一致，请重新输入",
+  "message.password_change_success": "密码修改成功，正在退出，请重新登录",
+  "label.announcements": "注意",
+
+  "tab.report": "报告",
+  "tab.report_me": "报告",
+  "tab.report_me_country": "报告",
+  "tab.report_me_dsm": "报告",
+  "tab.report_hk": "报告",
+  "tab.report_hk_senior": "报告",
+  "tab.report_tw": "报告",
+  "tab.report_tw_senior": "报告",
+  "tab.report_senior": "报告",
+
+  "tab.my_to_do": "我的待办",
+  "message.no_to_do_list": "没有数据",
+
+  "label.TBC": "待确认",
+  "label.coach_feedback": "辅导",
+  "label.segmentation": "定级",
+
+  "tab.my_schedule": "我的日程",
+  "message.no_arrangement_list": "没有数据",
+  "label.event": "活动",
+  "label.call": "拜访",
+  "label.call_coach": "协访",
+  "label.tot": "离岗",
+  "label.daishenpi": "待审批",
+  "label.daichuli": "待处理",
+  "label.call_coach_feedback": "协访",
+
+  "tab.fc_notice": "公告",
+  "message.no_notice": "没有公告",
+  "label.publish_date": "发布时间",
+
+  "tab.my_kpi": "我的KPI",
+  "message.no_data": "没有数据",
+
+  "action.more": "更多",
+
+  "month view": "月",
+  "week view": "周",
+  "day view": "日",
+
+  "tab.related_list": "相关列表",
+
+  "action.marked.read": "标记已读",
+  "action.view.whole.message": "查看全部信息",
+  "action.maked.read.all": "标记全部为已读",
+  "action.unread_notice": "Unread notice",
+
+  "action.logout": "登出",
+  "message.logout": "确认登出系统?",
+
+  "action.view_only_collection": "仅显示收藏",
+
+  "message.is_give_up.edit": "是否放弃编辑",
+
+  "label.country": "国家",
+  "label.province": "省",
+  "label.city": "市",
+  "label.area": "区",
+  "label.county": "县",
+  "label.detail_address": "详细地址",
+
+  "label.upload_image": "上传图片",
+  "label.upload_image_rules": "(格式为jpg或png,最多可上传${max_count}张.)",
+
+  "label.upload_file": "上传附件",
+  "label.upload_file_rules": "(最多可上传${max_count}个.)",
+
+  "field.operation": "操作",
+
+  "message.Need the correct email address": "需要正确的电子邮件地址",
+  "message.Need the correct phone number": "需要正确的手机号码（(例如:+86-12345678910、12345678901、1234-12345678-1234)）",
+  "message.please enter the correct integer format": "请输入正确的整数格式",
+  "message.please enter the correct number, if it is decimal, the decimal number is": "请输入正确的数字，如果它是小数，小数位是",
+
+  "message.image_upload_failed": "图片上传失败",
+  "message.upload uncompleted": "附件还在上传中，请稍等",
+
+  "header.related_list": "相关列表",
+  "header.notice": "公告",
+  "header.my_announcement": "我发布的公告 ",
+
+  "header.upload_image_view": "图片查看",
+
+  "action.me_publish_notice": "我发布的",
+  "action.publish_notice": "发布公告",
+  "action.me_received_notice": "我接收的",
+  "field.title": "标题",
+  "field.publish_date": "发布时间",
+  "field.expire_date": "过期时间",
+  "field.priority": "级别",
+  "label.major": "重要",
+  "label.general": "一般",
+  "field.description": "内容",
+  "field.profiles": "发布范围",
+  "alert.marked_as_read": "标为已读",
+  "alert.marked_all_as_read": "全部标记为已读",
+  "alert.view_all_alert": "查看全部通知",
+  "alert.unread": "未读通知",
+  "(alert.total": "(共:",
+  "alert.count)": "条)",
+
+  "header.product.select": "选择产品",
+  "header.product.list": "产品列表",
+  "header.product.feedback": "产品反馈",
+  "field.dependency_not_select": "选项与依赖的字段 {{field}} 不匹配",
+  "header.clmInfo": "媒体信息",
+
+  "field.common.yes": "是",
+  "field.common.no": "否",
+  "field.common.appraise": "项目",
+  "field.common.appraise": "评价",
+  "field.common.score": "得分",
+
+  "message.login_loading": "正在登录，请稍后...",
+  "sign_in_location": "签到地点",
+  "sign_in_time": "签到时间",
+  "pad.call_template_certain_apply": "您确定要应用当前的拜访模板？",
+  "pad.call_template_certain_copy": "您确定要复制到当前拜访模板？",
+
+  "navBar.lang": "语言",
+  "action.switch_account": "切换账号",
+  "action.auth_account": "账号授权",
+  "action.un_parsable_action": "无法解析动作{{actionOperactionCode}}",
+  "operation.switch_account_success": "账户数据初始化成功，切换成功",
+
+  "message.http_timeout": "服务接口请求超时,最长请求时间限制:{{timeout}}ms",
+  "message.approval_result_message": "{{message}}，共：{{count}}条，成功：{{success}}条，失败：{{failed}}条",
+
+  "message.please fill in the approval comments": "请填写审批意见"
+}

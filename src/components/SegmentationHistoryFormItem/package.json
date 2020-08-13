@@ -1,0 +1,6 @@
+{
+  "name": "SegmentationHistoryFormItem",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SegmentationHistoryFormItem.js"
+}

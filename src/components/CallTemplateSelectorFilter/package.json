@@ -1,0 +1,6 @@
+{
+  "name": "CallTemplateSelectorFilter",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CallTemplateSelectorFilter.js"
+}

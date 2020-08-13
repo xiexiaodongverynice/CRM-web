@@ -1,0 +1,33 @@
+// .anticon {
+//     font-size: 16px;
+// }
+
+// .nav_text {
+//     display: none;
+// }
+
+// :global {
+//   .ant-menu-horizontal>.ant-menu-item,
+//   .ant-menu-horizontal>.ant-menu-submenu {
+//     font-size: 14px;
+//   }
+//   .ant-menu-horizontal>.ant-menu-item:hover,
+//   .ant-menu-horizontal>.ant-menu-submenu:hover,
+//   .ant-menu-horizontal>.ant-menu-item-active,
+//   .ant-menu-horizontal>.ant-menu-submenu-active,
+//   .ant-menu-horizontal>.ant-menu-item-open,
+//   .ant-menu-horizontal>.ant-menu-submenu-open,
+//   .ant-menu-horizontal>.ant-menu-item-selected,
+//   .ant-menu-horizontal>.ant-menu-submenu-selected {
+//     border-bottom: 2px solid transparent;
+//     background-color: #ececec;
+//     font-size: 14px;
+//   }
+// }
+
+:global {
+  // 修复二级菜单移入移出样式
+  .ant-menu-submenu-horizontal > .ant-menu {
+    margin-top: 3px;
+  }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CRMpower</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+  <!--<link rel="stylesheet" href="assets/font/css/font-awesome.min.css" />-->
+  <!--<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">-->
+  <!--<link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>-->
+  <!--<link rel="shortcut icon" type="image/ico" href="http://www.forceclouds.com/static/img/favicon.ico"/>-->
+  <!--[if lt IE 10]>
+  <script src="https://as.alipayobjects.com/component/??console-polyfill/0.2.2/index.js,es5-shim/4.1.14/es5-shim.js,es5-shim/4.1.14/es5-sham.js,html5shiv/3.7.2/html5shiv.js"></script>
+  <![endif]-->
+  <script>
+    if (!window.Intl) {
+      document.writeln('<script src="https://as.alipayobjects.com/g/component/intl/1.0.1/Intl.js">' + '<' + '/script>');
+      document.writeln('<script src="https://as.alipayobjects.com/g/component/intl/1.0.1/locale-data/jsonp/zh.js">' + '<' + '/script>');
+    }
+  </script>
+</head>
+<body>
+<div id="root"></div>
+  <% if (process.env.NODE_ENV === 'development') { %>
+  <script type="text/javascript" src="/roadhog.dll.js"></script>
+  <% } %>
+</body>
+</html>

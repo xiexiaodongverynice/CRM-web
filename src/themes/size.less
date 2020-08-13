@@ -1,0 +1,23 @@
+.generate-hw(5);
+
+.generate-hw(@n, @i: 1) when (@i =< @n) {
+  @size: @i * 50;
+  .height-@{size} {
+    height: (@i * 50px);
+  }
+  .width-@{size} {
+    width: (@i * 50px);
+  }
+  .generate-hw(@n, (@i + 1));
+}
+
+
+.generate-lineHeight(5);
+
+.generate-lineHeight(@n, @i: 1) when (@i =< @n) {
+  @size: @i * 50;
+  .lineHeight-@{size} {
+    line-height: (@i * 50px);
+  }
+  .generate-lineHeight(@n, (@i + 1));
+}

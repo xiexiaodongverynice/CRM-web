@@ -1,0 +1,6 @@
+{
+  "name": "SubordinateSelectorFilter",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SubordinateSelectorFilter.js"
+}

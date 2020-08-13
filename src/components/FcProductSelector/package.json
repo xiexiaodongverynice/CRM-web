@@ -1,0 +1,6 @@
+{
+  "name": "FcProductSelector",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./FcProductSelector.js"
+}

@@ -1,0 +1,38 @@
+html,
+body,
+ :global(#root) {
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+    background: #ececec;
+}
+
+ :global(.ant-layout) {
+    height: 100%;
+    background: #ececec;
+}
+
+:global(table) {
+    font-size: 14px;
+}
+
+:global(.k_container) {
+    padding: 16px 30px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+:global(.k_containerF) {
+    padding: 16px 30px;
+    width: 100%;
+    margin: 0px auto;
+}
+:global(.bg_white) {
+  background: #ffffff;
+}
+:global(.text_right) {
+    text-align: right
+}
+
+:global(.text_center) {
+    text-align: center
+}

@@ -1,0 +1,6 @@
+{
+  "name": "RenderBar",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./RenderBar.js"
+}

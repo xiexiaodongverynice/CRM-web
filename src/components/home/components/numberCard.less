@@ -1,0 +1,62 @@
+@import "../../../themes/vars.less";
+.numberCard {
+    padding: 25px;
+    margin-bottom: 24px;
+    cursor: pointer;
+    .iconWarp {
+        font-size: 65px;
+        float: left;
+    }
+    .iconUp,
+    .iconDown {
+        font-size: 12px;
+        padding-right: 3px;
+    }
+    .iconUp {
+        color: #3ec8ac;
+    }
+    .iconDown {
+        color: #f46e65;
+    }
+  .title {
+    line-height: 16px;
+    font-size: 12px;
+    margin-bottom: 15px;
+    color: #5a5a5a;
+    height: 16px;
+    font-weight: bold;
+  }
+    .content {
+        width: 100%;
+        padding-left: 78px;
+        text-align: right;
+        .number {
+            line-height: 40px;
+            font-size: 20px;
+            // font-weight: bold;
+            color: #bfbfbf;
+            // height: 32px;
+            margin-top: 15px;
+            .text-overflow();
+            .realnumber {
+                padding-right: 2px;
+                font-size: 1.3em;
+                //font-size: 28px;
+                color: #5a5a5a;
+            }
+            .targetnumber {
+                padding-left: 2px;
+                font-size: 1em;
+                //font-size: 1.2em;
+                //font-size: 20px;
+            }
+        }
+        .footer {
+            line-height: 16px;
+            font-size: 12px;
+            margin-top: 8px;
+            color: #5a5a5a; //height: 16px;
+            .text-overflow();
+        }
+    }
+}

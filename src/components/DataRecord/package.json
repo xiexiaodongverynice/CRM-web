@@ -1,0 +1,10 @@
+{
+  "name": "RecordList",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./RecordList.js",
+  "dependencies": {
+    "react": "latest",
+    "prop-types": "latest"
+  }
+}

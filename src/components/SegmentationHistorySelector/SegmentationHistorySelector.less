@@ -1,0 +1,68 @@
+.productSelectorLayout{
+  display: flex;
+  flex-direction: column;
+  padding:0 0.25rem;
+  .productSelectorHeader{
+    background-color: aliceblue;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    font-size: 1.2em;
+  }
+
+  .productAttitude{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 0.25rem;
+    .fanKui{
+      padding: 0.25rem;
+      background-color: rgb(242,242,242);
+      font-weight: bolder;
+      font-size: 1.25rem;
+    }
+    .productAttitudeList{
+      .name{
+        display: flex;
+        justify-content: center;
+        padding: 0.25rem 0;
+        border-bottom: 1px solid #efefef;
+        .prod_name {
+          line-height: 32px;
+          flex:2;
+          margin-left: 8px;
+        }
+        .totalAttitude {
+          display: flex;
+          justify-content: space-between;
+          flex:29;
+          font-size: 12px !important;
+          padding: 0;
+          line-height: 32px;
+          .productReaction{
+
+          }
+        }
+      }
+      .attitude{
+        padding: 2px 8px;
+        margin-left: 16px;
+        border-bottom: 1px dashed #efefef;
+        display: flex;
+        .des_name{
+          flex:3;
+          font-size: 12px;
+          color: #999;
+          margin: 8px 0 0 0;
+          line-height: 1.5;
+        }
+        .totalAttitude{
+          display: flex;
+          justify-content: space-between;
+          flex:1;
+          font-size: 12px;
+          padding: 4px 0 4px 8px;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+}

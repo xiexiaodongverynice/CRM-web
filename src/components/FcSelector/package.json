@@ -1,0 +1,6 @@
+{
+  "name": "FcSelector",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./FcSelector.js"
+}
