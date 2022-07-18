@@ -28,7 +28,7 @@
     "image-compressor.js": "^1.1.1",
     "immutability-helper": "^3.0.1",
     "jquery": "^3.2.1",
-    "jquery-ui": "^1.12.1",
+    "jquery-ui": "^1.13.2",
     "jsonp": "^0.2.1",
     "less-vars-to-js": "^1.1.2",
     "lodash": "^4.17.4",
